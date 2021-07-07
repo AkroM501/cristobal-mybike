@@ -1,0 +1,93 @@
+[
+    {
+        "id": 0,
+        "category": "arriendo",
+        "name": "arriendo lado sur",
+        "img": "arr1.png",
+        "price": 5000
+    },
+    {
+        "id": 1,
+        "category": "arriendo",
+        "name": "arriendos lado norte",
+        "img": "arr2.png",
+        "price": 5000
+    },
+    {
+        "id": 2,
+        "category": "arriendo",
+        "name": "arriendos lado oeste",
+        "img": "arr3.png",
+        "price": 5000
+    },
+    {
+        "id": 3,
+        "category": "arriendo",
+        "name": "arriendo lado este",
+        "img": "arr4.png",
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "category": "piezas",
+        "name": "fusible",
+        "img": "piz1.png",
+        "price": 6990
+    },
+    {
+        "id": 5,
+        "category": "piezas",
+        "name": "Marco",
+        "img": "piz2.png",
+        "price": 150000
+    },
+    {
+        "id": 6,
+        "category": "piezas",
+        "name": "pedales",
+        "img": "piz3.png",
+        "price": 27440
+    },
+    {
+        "id": 7,
+        "category": "piezas",
+        "name": "Set Frenos",
+        "img": "piz4.png",
+        "price": 200000
+    },
+    {
+        "id": 8,
+        "category": "piezas",
+        "name": "Tee Potencia",
+        "img": "piz5.png",
+        "price": 9990
+    },
+    {
+        "id": 9,
+        "category": "venta",
+        "name": "Bicicleta profesional",
+        "img": "ven1.png",
+        "price": 120000
+    },
+    {
+        "id": 10,
+        "category": "venta",
+        "name": "Bicicleta todo terreno",
+        "img": "ven2.png",
+        "price": 105000
+    },
+    {
+        "id": 11,
+        "category": "venta",
+        "name": "Bicicleta Infantil",
+        "img": "ven3.png",
+        "price": 40000
+    },
+    {
+        "id": 12,
+        "category": "venta",
+        "name": "Bicicleta Deportiva",
+        "img": "ven4.png",
+        "price": 135000
+    }
+]

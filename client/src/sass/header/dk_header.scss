@@ -1,0 +1,46 @@
+.DK-header {
+    background: #1f2833;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 63px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    .left,
+    .right {
+        width: 25%;
+    }
+
+    nav {
+        width: 50%;
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: #f9f9f9;
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-evenly;
+
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-size: 20px;
+        }
+    }
+}

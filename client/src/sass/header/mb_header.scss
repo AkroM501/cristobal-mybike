@@ -1,0 +1,57 @@
+.MB-header {
+    background: #1f2833;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .under {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        top: 55px;
+        width: 100%;
+
+        .right {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px 0;
+
+            button {
+                border: none;
+                outline: none;
+                padding: 4px 10px;
+                cursor: pointer;
+                border-radius: 3px;
+                font-size: 20px;
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                flex-direction: column;
+                align-items: center;
+
+                li {
+                    a {
+                        display: block;
+                        padding: 10px 0;
+                        text-decoration: none;
+                        color: #f9f9f9;
+                    }
+                }
+            }
+        }
+    }
+}

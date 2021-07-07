@@ -1,0 +1,22 @@
+.iw_products {
+    h3 {
+        text-align: center;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .iw_products {
+        .grid {
+            grid-template-columns: repeat(3, 30%);
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.formWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+
+    .window {
+        background: #1f2833;
+        width: 95%;
+        max-width: 450px;
+        padding: 15px 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+
+        .formSection {
+            margin-bottom: 20px;
+            width: 80%;
+            label {
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            input {
+                background: #0b0c10;
+                color: #f9f9f9;
+                border: none;
+                outline: none;
+                font-size: 20px;
+                padding: 5px;
+                width: 100%;
+            }
+        }
+
+        button[type="submit"] {
+            width: 80%;
+            background: transparent;
+            border: 2px solid #66fcf1;
+            color: #f9f9f9;
+            cursor: pointer;
+            font-size: 20px;
+            min-height: 35px;
+        }
+    }
+}
